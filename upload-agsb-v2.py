@@ -39,7 +39,7 @@ CF_TOKEN = "eyJhIjoiYjVkYWEyNDk3NTQ1ZWI5YjdmMDM1NGQzZGE1NGYyZGUiLCJ0IjoiN2Q3NWJi
 # =========================================
 
 # 添加命令行参数解析
-def parse_args() 中：
+def parse_args() :
     parser = argparse.ArgumentParser(description="ArgoSB Python3 一键脚本 (支持自定义域名和Argo Token)")
     parser.add_argument("action", nargs="?", default="install",
                         choices=["install", "status", "update", "del", "uninstall", "cat"],
