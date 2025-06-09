@@ -32,8 +32,8 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "pan260"         # 用户名
-UUID = "a91b59b6-ade4-497d-b4e9-88d184c48048"                     # UUID，留空则自动生成
-PORT = 49999                   # Vmess端口，留空或0则自动生成
+UUID = ""                     # UUID，留空则自动生成
+PORT =                    # Vmess端口，留空或0则自动生成
 DOMAIN = "free.pan260.ggff.net"                   # 域名，留空则自动获取
 CF_TOKEN = "tzSbT-ENM3oUEz0DRrOwir1x1FQ0y-ayz-w7zg1G"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
